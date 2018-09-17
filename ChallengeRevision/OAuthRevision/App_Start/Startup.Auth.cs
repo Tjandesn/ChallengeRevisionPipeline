@@ -58,11 +58,11 @@ namespace OAuthRevision
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "316545065953-4a0cko84igu80g94ogqvqctmml772mn3.apps.googleusercontent.com",
+                ClientSecret = "nsV2nph32JTVj2njfvvZLl01"
+            });
         }
     }
 }
